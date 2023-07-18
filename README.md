@@ -2,7 +2,7 @@
 
 Thank you for taking the time to check out my code!
 
-***Please note that I have replaced the API keys in the code so as not to make them public, so if you run the app from this code, the API calls for auto-complete and fetching weather data will not work!***
+***Please note that I have replaced the API keys in the code so as not to make them public; so if you run the app from this code, the API calls for auto-complete and fetching weather data will not work!***
 
 
 I made this app as a simple demonstration to show what I can do as a developer. 
