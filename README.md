@@ -6,7 +6,7 @@ Thank you for taking the time to check out my code!
 
 
 I made this app as a simple demonstration to show what I can do as a developer. 
-It uses Android Jetpack Compose and other libraries such as Hilt, Retrofit, Moshi.
+It uses Android Jetpack Compose and other libraries such as Hilt, Retrofit, and Moshi.
 It also uses the Room library for the SQL database.
 Users can get weather data based on their device’s location or search for a location using the search bar. 
 The search bar gives suggestions for locations as the user types. 
