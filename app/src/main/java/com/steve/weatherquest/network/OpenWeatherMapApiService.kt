@@ -27,7 +27,7 @@ private val retrofitOpenWeatherMap = Retrofit.Builder()
 interface OpenWeatherMapApiService {
 
     // Current weather
-    @GET("weather")
+    @POST("weather")
     suspend fun getCurrentWeatherResponse(
         @Query("lat") lat: String,
         @Query("lon") lon: String,
@@ -38,7 +38,7 @@ interface OpenWeatherMapApiService {
 
 
     // 5-day forecast
-    @GET("forecast")
+    @POST("forecast")
     suspend fun getFiveDayForecastResponse(
         @Query("lat") lat: String,
         @Query("lon") lon: String,
